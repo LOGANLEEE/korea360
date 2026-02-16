@@ -1,0 +1,30 @@
+---
+description: Purpose-driven component patterns for KOREA 360 marketing pages
+alwaysApply: true
+---
+
+# Purpose-driven components (KOREA 360)
+
+Keep UI **section-based and reusable**. When building marketing pages, **create components first** (with a single, clear purpose), then compose them in pages.
+
+- **One purpose per component**: Hero, Highlights, Gallery, CTA, Footer, etc.
+- **Presentational only**: no business logic, no data fetching inside UI components.
+- **Data lives in config**: put copy + assets in a dedicated data module (e.g. `src/content/...`) and pass props down.
+- **Consistent layout**:
+  - Container: `mx-auto max-w-7xl px-6 md:px-8`
+  - Section spacing: `py-16 md:py-24` (or `py-24` for hero)
+  - Typography: follow project rules (large H1/H2, muted body)
+- **shadcn/ui primitives**: prefer `Button`, `Card`, etc. Extend via `className`, no inline styles.
+
+## Example pattern
+
+✅ Good:
+- `src/content/zones.ts` (data)
+- `src/components/marketing/zones/ZoneHero.tsx` (purpose: zone hero)
+- `src/components/marketing/zones/ZoneGallery.tsx` (purpose: image grid)
+- `src/app/zones/[slug]/page.tsx` (composition)
+
+❌ Avoid:
+- hardcoding long copy/assets directly in `page.tsx`
+- combining multiple sections into one large component without clear boundaries
+

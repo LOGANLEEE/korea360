@@ -1,0 +1,43 @@
+---
+alwaysApply: true
+---
+# PROJECT GOALS & OBJECTIVES
+mdc_version: 1.0
+project: KOREA 360 UAE Website
+description: |
+  Official marketing & cultural experience website for KOREA 360 UAE,
+  aimed at showcasing Korean culture, K-contents, products, and visitor experience
+  to UAE residents and tourists.
+
+---
+
+## 1. PROJECT PURPOSE
+- Introduce KOREA 360 UAE as a bridge between Korea and the Middle East.
+- Promote Korean culture, K-POP, K-beauty, K-food, tourism, and lifestyle.
+- Provide immersive, easy-to-navigate website experience for visitors.
+- Enhance brand trust and government-backed credibility.
+- Drive awareness and foot traffic to Dubai Festival City Mall location.
+
+---
+
+## 2. KEY OBJECTIVES
+- Design a **responsive, immersive landing site** for desktop and mobile.
+- Implement **Experience Zones** (15 categories) as visually clear, scannable sections.
+- Present partner organizations with credibility emphasis.
+- Include **contact & visit information** with CTA for engagement.
+- Optimize SEO for discoverability (English + Korean content).
+- Use **static pages** and minimal admin reliance (future expansion optional).
+- Maintain design consistency using **TailwindCSS + shadcn/ui**.
+- Ensure UX supports **cultural immersion + easy navigation**.
+- Prepare codebase and design system for **future scalability** (Arabic, CMS, dynamic events).
+
+---
+
+## 3. SUCCESS CRITERIA
+- Website reflects brand and cultural identity clearly.
+- Pages load quickly (<2s) on desktop & mobile.
+- Experience Zones are **scannable and visually engaging**.
+- CTA elements visible and actionable.
+- SEO metadata properly configured.
+- Design & UX adhere strictly to **project design rules**.
+- Project completed by **2026-02-24** with minimal revision cycles.

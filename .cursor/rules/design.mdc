@@ -1,0 +1,194 @@
+---
+alwaysApply: true
+---
+# PROJECT UI/UX & DEVELOPMENT RULES
+Stack: Next.js (App Router) + TailwindCSS + shadcn/ui
+
+========================================================
+1. CORE DESIGN PHILOSOPHY
+========================================================
+
+• Modern, minimal, brand-focused.
+• Section-based, marketing-oriented layout.
+• Products visually scannable.
+• Clean but slightly casual UI.
+• Avoid heavy gradients, complex effects.
+• Use white space as a key tool.
+
+Design Principles:
+- Clarity
+- Strong hierarchy
+- Visual breathing room
+- Large typography
+- Grid consistency
+- Soft interactions
+
+========================================================
+2. DESIGN SYSTEM RULES
+========================================================
+
+2.1 Spacing
+8px base grid.
+Scale: 4,8,12,16,24,32,48,64,96
+
+Sections:
+- Padding: py-24 desktop / py-16 mobile
+- Gap: gap-12 or gap-16
+
+2.2 Container Width
+- max-w-7xl, mx-auto
+- px-6 mobile / px-8 desktop
+
+2.3 Border Radius
+- Cards: rounded-2xl
+- Buttons: rounded-xl
+- Inputs: rounded-lg
+
+2.4 Shadows
+Soft only:
+- shadow-sm
+- shadow-md
+
+2.5 Typography
+Large, bold headlines.
+
+H1: text-4xl md:text-6xl font-bold tracking-tight  
+H2: text-3xl md:text-4xl font-semibold  
+H3: text-xl md:text-2xl font-semibold  
+Body: text-base md:text-lg text-muted-foreground
+
+Avoid small text unless necessary.
+
+========================================================
+3. LAYOUT STRUCTURE RULES
+========================================================
+
+Page structure:
+
+1. Hero  
+2. Value Proposition  
+3. Product Highlight  
+4. Social Proof / Trust  
+5. CTA  
+6. Footer
+
+Hero:
+- Strong headline
+- Short description (max 2 lines)
+- Primary + Secondary CTA
+- Visual/product image right (desktop)
+- Stack vertically on mobile
+
+Product Grid:
+- 2 columns mobile, 3–4 desktop
+- Equal card height
+- Image top, title, short description, CTA button
+
+========================================================
+4. COMPONENT RULES (shadcn/ui)
+========================================================
+
+Use shadcn base components only.
+Extend via className and variants.
+
+Allowed:
+- Button, Card, Input, Badge, Dialog, Sheet, Dropdown, Tabs, Accordion
+
+Custom wrappers:
+- Section, Container, ProductCard, FeatureCard, CTASection
+
+No inline styles.
+Use Tailwind classes only.
+
+========================================================
+5. COLOR SYSTEM
+========================================================
+
+Define in tailwind.config.
+
+Use:
+- Primary (brand)
+- Neutral grayscale
+- Soft accent background
+- Muted text
+
+Avoid:
+- Excess accent colors
+- High saturation combos
+
+Buttons:
+Primary → solid  
+Secondary → outline  
+Tertiary → ghost
+
+========================================================
+6. INTERACTION RULES
+========================================================
+
+Hover:
+- Scale max 105%
+- Subtle shadow increase
+- Minimal color shift
+
+Transitions:
+- duration-200 or 300
+- ease-in-out
+
+No aggressive animations.
+Keep motion subtle.
+
+========================================================
+7. RESPONSIVE RULES
+========================================================
+
+Mobile-first.
+Breakpoints: sm, md, lg, xl
+
+All components stack cleanly on mobile.
+
+========================================================
+8. UX RULES
+========================================================
+
+• Concise text.
+• One message per section.
+• Important content above fold.
+• CTA at least twice per page.
+
+Product priority:
+Image > Name > Key Value > CTA
+
+========================================================
+9. PERFORMANCE RULES
+========================================================
+
+• Use Next.js Image.
+• Avoid unnecessary client components.
+• Default to server components.
+• Lazy load heavy parts.
+• Minimize bundle size.
+
+========================================================
+10. CODE STRUCTURE
+========================================================
+
+app/
+  (marketing)/
+    page.tsx
+    components/
+      Hero.tsx
+      ProductGrid.tsx
+      CTA.tsx
+  layout.tsx
+
+components/
+  ui/ (shadcn)
+  shared/
+  marketing/
+
+No logic in UI components.
+Presentational only.
+
+========================================================
+END OF RULES
+========================================================
