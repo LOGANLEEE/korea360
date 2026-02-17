@@ -1,4 +1,6 @@
-import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { FeatureCard } from "@/components/shared/FeatureCard"
+import { Container } from "@/components/shared/Container"
+import { Section } from "@/components/shared/Section"
 
 export type ZoneHighlight = {
   title: string
@@ -11,8 +13,8 @@ export type ZoneHighlightsProps = {
 
 export function ZoneHighlights({ items }: ZoneHighlightsProps) {
   return (
-    <section className="py-16 md:py-24">
-      <div className="mx-auto max-w-7xl px-6 md:px-8">
+    <Section>
+      <Container>
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
             <h2 className="text-3xl font-semibold md:text-4xl">Highlights</h2>
@@ -25,25 +27,17 @@ export function ZoneHighlights({ items }: ZoneHighlightsProps) {
           <div className="lg:col-span-7">
             <div className="grid gap-6 md:grid-cols-3">
               {items.map((item) => (
-                <Card
+                <FeatureCard
                   key={item.title}
-                  className="h-full transition-all duration-200 ease-in-out hover:shadow-md hover:scale-[1.02]"
-                >
-                  <CardHeader>
-                    <CardTitle className="text-xl md:text-2xl">
-                      {item.title}
-                    </CardTitle>
-                    <CardDescription className="text-base md:text-lg">
-                      {item.description}
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
+                  title={item.title}
+                  description={item.description}
+                />
               ))}
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   )
 }
 

@@ -2,6 +2,8 @@ import Image, { type StaticImageData } from "next/image"
 import Link from "next/link"
 
 import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { Container } from "@/components/shared/Container"
 import { cn } from "@/lib/utils"
 
 export type ZoneHeroProps = {
@@ -33,17 +35,17 @@ export function ZoneHero({
         />
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-linear-to-b from-background/40 via-background/80 to-background"
+          className="absolute inset-0 bg-linear-to-b from-background/40 via-background/20 to-background"
         />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6 md:px-8">
+      <Container className="relative">
         <div className="grid items-end gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-7">
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
               {title}
             </h1>
-            <p className="mt-6 text-base text-muted-foreground md:text-lg">
+            <p className="mt-6 text-base text-foreground/95 md:text-lg">
               {subtitle}
             </p>
 
@@ -70,7 +72,7 @@ export function ZoneHero({
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative overflow-hidden rounded-2xl border bg-background/60 shadow-sm backdrop-blur-sm">
+            <Card className="relative overflow-hidden border bg-background/60 shadow-sm backdrop-blur-sm">
               <div className="absolute inset-0">
                 <Image
                   src={heroImage}
@@ -92,10 +94,10 @@ export function ZoneHero({
                   for when you visit.
                 </p>
               </div>
-            </div>
+            </Card>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   )
 }

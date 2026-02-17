@@ -1,6 +1,16 @@
+"use client"
+
 import Image, { type StaticImageData } from "next/image"
+import { useState } from "react"
 
 import { Card } from "@/components/ui/card"
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+} from "@/components/ui/dialog"
+import { Container } from "@/components/shared/Container"
+import { Section } from "@/components/shared/Section"
 
 export type ZoneGalleryImage = {
   src: StaticImageData
@@ -18,9 +28,12 @@ export function ZoneGallery({
   description = "A quick look at the zone — more photos and updates can be added anytime.",
   images,
 }: ZoneGalleryProps) {
+  const [previewIndex, setPreviewIndex] = useState<number | null>(null)
+  const previewImage = previewIndex !== null ? images[previewIndex] : null
+
   return (
-    <section className="py-16 md:py-24">
-      <div className="mx-auto max-w-7xl px-6 md:px-8">
+    <Section>
+      <Container>
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-semibold md:text-4xl">{title}</h2>
@@ -34,7 +47,16 @@ export function ZoneGallery({
           {images.map((img, idx) => (
             <Card
               key={`${img.alt}-${idx}`}
-              className="group overflow-hidden shadow-sm transition-all duration-200 ease-in-out hover:shadow-md hover:scale-[1.02]"
+              role="button"
+              tabIndex={0}
+              className="group cursor-pointer overflow-hidden shadow-sm transition-all duration-200 ease-in-out hover:shadow-md hover:scale-[1.02] focus-visible:outline focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              onClick={() => setPreviewIndex(idx)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault()
+                  setPreviewIndex(idx)
+                }
+              }}
             >
               <div className="relative aspect-4/3 w-full">
                 <Image
@@ -48,8 +70,35 @@ export function ZoneGallery({
             </Card>
           ))}
         </div>
-      </div>
-    </section>
+      </Container>
+
+      <Dialog open={previewIndex !== null} onOpenChange={(open) => !open && setPreviewIndex(null)}>
+        <DialogContent
+          className="max-h-[90vh] max-w-4xl border-0 bg-black/95 p-0 shadow-lg [&_[data-slot=dialog-close]]:text-white [&_[data-slot=dialog-close]]:hover:text-white/90"
+          showCloseButton={true}
+        >
+          {previewImage && (
+            <>
+              <DialogTitle className="sr-only">{previewImage.alt}</DialogTitle>
+              <div className="relative flex max-h-[85vh] w-full items-center justify-center p-4">
+                <div className="relative aspect-auto max-h-[80vh] w-full">
+                  <Image
+                    src={previewImage.src}
+                    alt={previewImage.alt}
+                    width={previewImage.src.width}
+                    height={previewImage.src.height}
+                    className="max-h-[80vh] w-auto object-contain"
+                  />
+                </div>
+              </div>
+              <p className="border-t border-white/10 px-4 py-3 text-center text-sm text-white/90">
+                {previewImage.alt}
+              </p>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
+    </Section>
   )
 }
 

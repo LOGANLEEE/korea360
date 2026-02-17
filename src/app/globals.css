@@ -116,6 +116,64 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Subtle entrance animations (duration-300, ease-in-out per design rules) */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fade-in-up 0.3s ease-in-out forwards;
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in 0.3s ease-in-out forwards;
+}
+
+.animation-delay-0 { animation-delay: 0s; }
+.animation-delay-75 { animation-delay: 75ms; }
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-150 { animation-delay: 150ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+
+/* Scroll-reveal: hidden until in view, then animate once */
+.reveal-section {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.reveal-section.is-visible {
+  animation: fade-in-up 0.3s ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in-up,
+  .animate-fade-in,
+  .reveal-section {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
