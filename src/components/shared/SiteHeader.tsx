@@ -1,19 +1,22 @@
-import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 import { KOREA360_LOGO } from "@/assets/logo";
 import { Container } from "@/components/shared/Container";
+import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
 import { Logo } from "@/components/shared/Logo";
 import { Button } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Home", href: "/" },
-  { label: "Experience Zones", href: "/zones" },
-  { label: "Events", href: "/events" },
-  { label: "Visit", href: "/#visit" },
+  { key: "home" as const, href: "/" },
+  { key: "experienceZones" as const, href: "/zones" },
+  { key: "events" as const, href: "/events" },
+  { key: "visit" as const, href: "/#visit" },
 ] as const;
 
-export function SiteHeader({ className }: { className?: string }) {
+export async function SiteHeader({ className }: { className?: string }) {
+  const t = await getTranslations("nav");
   return (
     <header
       className={cn(
@@ -37,9 +40,10 @@ export function SiteHeader({ className }: { className?: string }) {
               size="sm"
               className="rounded-xl text-sm md:text-base"
             >
-              <Link href={item.href}>{item.label}</Link>
+              <Link href={item.href}>{t(item.key)}</Link>
             </Button>
           ))}
+          <LanguageSwitcher className="ml-2 sm:ml-4" />
         </nav>
       </Container>
     </header>

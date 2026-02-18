@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server"
 import { CTASection } from "@/components/shared/CTASection"
 
 export type ZoneVisitCtaProps = {
@@ -5,20 +6,19 @@ export type ZoneVisitCtaProps = {
   description?: string
 }
 
-export function ZoneVisitCta({
-  title = "Visit KOREA 360 UAE",
-  description = "Find us at Dubai Festival City Mall — browse more zones, then plan your visit.",
-}: ZoneVisitCtaProps) {
+export async function ZoneVisitCta(props: ZoneVisitCtaProps) {
+  const t = await getTranslations("zones.visitCta")
+  const title = props.title ?? t("title")
+  const description = props.description ?? t("description")
   return (
     <CTASection
       title={title}
       description={description}
-      primaryCta={{ label: "Plan your visit", href: "/#visit" }}
-      secondaryCta={{ label: "Browse all zones", href: "/#experience-zones" }}
+      primaryCta={{ label: t("planVisit"), href: "/#visit" }}
+      secondaryCta={{ label: t("browseZones"), href: "/#experience-zones" }}
       aside={{
-        title: "Designed for easy discovery",
-        description:
-          "Start with what you love, then explore nearby zones — the experience is curated for clarity, breathing room, and quick scanning.",
+        title: t("asideTitle"),
+        description: t("asideDescription"),
       }}
     />
   )

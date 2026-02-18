@@ -1,0 +1,312 @@
+{
+  "nav": {
+    "home": "Home",
+    "experienceZones": "Experience Zones",
+    "events": "Events",
+    "visit": "Visit"
+  },
+  "home": {
+    "hero": {
+      "headline": "KOREA 360 UAE — A New Bridge Connecting Korea and the Middle East",
+      "subtext": "The first and only K-Content & Product Experience Hub. Experience all of Korea — K-content, culture, tourism, fashion, food, beauty, and lifestyle — in one immersive space.",
+      "primaryCta": "Explore Experience Zones",
+      "secondaryCta": "Plan Your Visit"
+    },
+    "experienceHub": "Experience Hub",
+    "experienceHubTitle": "A curated gateway to Korea",
+    "experienceHubDesc": "Experience 15 themed zones — from K-food and K-beauty to characters, design, and tourism — designed to be scannable, immersive, and easy to navigate.",
+    "exploreTag": "Explore",
+    "heroTags": ["K-food", "K-beauty", "K-POP", "Design", "Tourism"],
+    "valueProp1": {
+      "title": "First and only K-Content & Product hub",
+      "description": "The only experience hub of its kind in the region — K-content, culture, tourism, fashion, food, beauty, and lifestyle in one place."
+    },
+    "valueProp2": {
+      "title": "15 immersive Experience Zones",
+      "description": "From K-POP to K-food, everything about Korea unfolds like a 360° panorama. Pick a zone and experience the uniqueness of Korean brands from all directions."
+    },
+    "valueProp3": {
+      "title": "Visit us in Dubai",
+      "description": "Dubai Festival City Mall, 1st Floor (Near North Parking) — easy to reach, easy to explore, and perfect for families and friends."
+    },
+    "experienceAll": {
+      "title": "Experience all of Korea in one place",
+      "body1": "KOREA 360 is where visitors can experience all of Korea — K-content, culture, tourism, fashion, food, beauty, and lifestyle. From K-pop to K-food, everything unfolds like a 360° panorama. Experience the uniqueness of Korean brands from all directions.",
+      "body2": "Led by the Korea Creative Content Agency (KOCCA), the leading institution fostering the growth of the K-content industry — from broadcasting, games, animation, characters, webtoons, and music to fashion and emerging technology."
+    },
+    "experienceZones": {
+      "title": "Experience Zones",
+      "description": "15 zones that make K-culture easy to browse — from K-POP and K-Character to K-Beauty, K-Food, K-Tourism, and more. Pick a zone and dive in.",
+      "getDirections": "Get directions"
+    },
+    "partners": {
+      "title": "Partner organizations",
+      "description": "In collaboration with trusted organizations supporting culture, trade, tourism, design, and exports across Korea and the UAE."
+    },
+    "partnersList": {
+      "kcc": { "title": "Korean Cultural Center (KCC)", "description": "Promotes Korean culture and cultural exchange through various programs and events." },
+      "at": { "title": "Korea Agro-Fisheries & Food Trade Corporation (aT)", "description": "Government agency that promotes trade, export, and marketing of Korean food and beverages." },
+      "kcii": { "title": "Korean Cosmetic Industry Institute (KCII)", "description": "Research organization promoting K-Beauty by researching ingredient safety, creating a global skin data bank, and supporting exports." },
+      "kcdf": { "title": "Korean Craft & Design Foundation (KCDF)", "description": "Promotes Korean craft, design, and Hanbok globally while preserving cultural heritage and fostering regional development." },
+      "kidp": { "title": "Korea Institute of Design Promotion (KIDP)", "description": "Promotes Korea's design industry and strengthens design capabilities of companies." },
+      "kita": { "title": "Korea International Trade Association (KITA)", "description": "Non-profit organization that supports Korea's trade and economic development, aiding domestic companies' international expansion." },
+      "kosme": { "title": "Korea SMEs and Startups Agency (KOSME)", "description": "Government agency that supports the growth and development of SMEs and startups in South Korea." },
+      "kto": { "title": "Korea Tourism Organization (KTO)", "description": "Government agency that promotes tourism to South Korea and enhances its image as a travel destination." },
+      "kotra": { "title": "Korea Trade-Investment Promotion Agency (KOTRA)", "description": "Government agency that supports trade and global expansion of Korean businesses." }
+    },
+    "visit": {
+      "title": "Visit KOREA 360 UAE",
+      "description": "Find us at Dubai Festival City Mall. Bring friends, take your time, and explore zone by zone.",
+      "primaryCta": "Browse zones",
+      "secondaryCta": "Open in Google Maps",
+      "location": "Location",
+      "locationValue": "Dubai Festival City Mall, 1st Floor (Near North Parking), Dubai, UAE",
+      "operationTime": "Operation time",
+      "operationTimeValue": "Mon–Thu 10:00–23:00, Fri–Sun 10:00–24:00",
+      "callWhatsApp": "Call / WhatsApp",
+      "email": "E-mail",
+      "instagram": "Instagram",
+      "asideTitle": "Quick tip",
+      "asideDescription": "Start with the zones you're most curious about, then loop back for favorites — the layout is designed for easy navigation and repeat discovery.",
+      "mapCaption": "KOREA 360 Explore Map — find your way through the zones"
+    },
+    "mapAlt": "KOREA 360 Explore Map — floor plan showing 18 Experience Zones at Dubai Festival City Mall",
+    "footer": {
+      "tagline": "Official marketing & cultural experience website for KOREA 360 UAE at Dubai Festival City Mall.",
+      "experienceZones": "Experience Zones",
+      "events": "Events",
+      "visit": "Visit",
+      "instagram": "Instagram",
+      "copyright": "© {year} KOREA 360 UAE. All rights reserved."
+    }
+  },
+  "zones": {
+    "index": {
+      "title": "Experience Zones",
+      "description": "Browse 15 categories and explore each zone's details.",
+      "planVisit": "Plan your visit",
+      "viewDetails": "View details"
+    },
+    "detail": {
+      "backToZones": "Back to Experience Zones",
+      "planVisit": "Plan Your Visit",
+      "exploreZone": "Explore the zone",
+      "exploreZoneDesc": "Discover curated highlights, a quick gallery, and what to look for when you visit."
+    },
+    "highlights": {
+      "title": "Highlights",
+      "description": "A quick set of cues to guide your visit — designed to be scannable and easy to navigate."
+    },
+    "visitCta": {
+      "title": "Visit KOREA 360 UAE",
+      "description": "Find us at Dubai Festival City Mall — browse more zones, then plan your visit.",
+      "planVisit": "Plan your visit",
+      "browseZones": "Browse all zones",
+      "asideTitle": "Designed for easy discovery",
+      "asideDescription": "Start with what you love, then explore nearby zones — the experience is curated for clarity, breathing room, and quick scanning."
+    },
+    "notFound": {
+      "title": "Zone not found",
+      "description": "The zone you're looking for doesn't exist (or the link has changed).",
+      "browseZones": "Browse Experience Zones",
+      "backToHome": "Back to home"
+    },
+    "contents-experience": {
+      "name": "Contents Experience",
+      "subtitle": "Content Experience space offers an immersive showcase of Korea's diverse creative industries. Visitors can engage with interactive content, including Noraebang (Korean style singing rooms) experiences and a variety of audiovisual screenings. This space highlights Korea's cutting-edge media trends and its influence.",
+      "highlights": [
+        { "title": "Noraebang", "description": "Korean-style singing room experiences." },
+        { "title": "Interactive", "description": "Step-In, Ulti-racer, PUBG, Nestyle and more." },
+        { "title": "Media", "description": "Audiovisual screenings and cutting-edge trends." }
+      ]
+    },
+    "content-multiplex": {
+      "name": "Content Multiplex",
+      "subtitle": "Content Multiplex is an interactive and immersive XR experience space that combines spatial sensors with integrated wall projections. Designed for all ages, this space offers a unique and engaging experience beyond passive viewing.",
+      "highlights": [
+        { "title": "XR Experience", "description": "Spatial sensors and wall projections." },
+        { "title": "All Ages", "description": "Designed for everyone to enjoy." },
+        { "title": "Interactive", "description": "Digital gaming and immersive content." }
+      ]
+    },
+    "k-beauty": {
+      "name": "K-Beauty",
+      "subtitle": "Step into the world of K-beauty, where you can experience a variety of skincare, haircare, and makeup products. Discover the innovation and quality behind Korea's beauty industry.",
+      "highlights": [
+        { "title": "Skincare", "description": "Routines and products for every need." },
+        { "title": "Innovation", "description": "Why K-beauty became a global trend." },
+        { "title": "Try", "description": "Best products made with natural ingredients." }
+      ]
+    },
+    "k-character": {
+      "name": "K-Character",
+      "subtitle": "The K-Character Zone is a space dedicated to introducing Korea's 'Young Toy'. Experience a world of wonder for children, brought to life in collaboration with Korea's famous toy companies.",
+      "highlights": [
+        { "title": "Young Toy", "description": "Korea's beloved character world." },
+        { "title": "Collaboration", "description": "Famous Korean toy companies." },
+        { "title": "Wonder", "description": "A space for children and families." }
+      ]
+    },
+    "k-craft-design": {
+      "name": "K-Craft & Design",
+      "subtitle": "An exhibition of Korean traditional crafts infused with modern design, highlighting exquisite artistry and craftsmanship.",
+      "highlights": [
+        { "title": "Traditional Craft", "description": "Infused with modern design." },
+        { "title": "Artistry", "description": "Exquisite craftsmanship up close." },
+        { "title": "Timeless", "description": "Beauty and precision of handmade works." }
+      ]
+    },
+    "k-culture": {
+      "name": "K-Culture",
+      "subtitle": "The K-Culture is a space where visitors can experience Korea's traditional culture and history at a glance.",
+      "highlights": [
+        { "title": "Traditional", "description": "Culture and history at a glance." },
+        { "title": "Museums", "description": "Representative collections and displays." },
+        { "title": "Folk", "description": "Hands-on cultural experiences." }
+      ]
+    },
+    "k-fashion": {
+      "name": "K-Fashion",
+      "subtitle": "K-Fashion showcases the dynamic and evolving trends of Korean style, seamlessly blending tradition with modern innovation.",
+      "highlights": [
+        { "title": "Trends", "description": "Dynamic and evolving Korean style." },
+        { "title": "Tradition & Modern", "description": "Seamlessly blended innovation." },
+        { "title": "Curated", "description": "Leading brands and designers." }
+      ]
+    },
+    "k-food": {
+      "name": "K-Food",
+      "subtitle": "Explore a variety of nutritional supplements made from ginseng and red ginseng, and experience the taste and culture of Korea through authentic flavors.",
+      "highlights": [
+        { "title": "Ginseng", "description": "Nutritional supplements and health products." },
+        { "title": "Taste", "description": "Authentic Korean flavors." },
+        { "title": "Culture", "description": "Food as a window to Korea." }
+      ]
+    },
+    "k-lifestyle": {
+      "name": "K-Lifestyle",
+      "subtitle": "Experience a collection of lifestyle products from Korea, ranging from fashionable accessories to essential home appliances and convenience items.",
+      "highlights": [
+        { "title": "Accessories", "description": "Fashionable and functional items." },
+        { "title": "Home", "description": "Appliances and convenience products." },
+        { "title": "Design", "description": "Innovation meets everyday life." }
+      ]
+    },
+    "k-pop": {
+      "name": "K-POP",
+      "subtitle": "The K-POP exhibition showcases a curated collection of albums, official merchandise, and light sticks from renowned K-POP artists.",
+      "highlights": [
+        { "title": "Albums & Merch", "description": "Official merchandise and light sticks." },
+        { "title": "Hallyu", "description": "A key hub of the global K-POP movement." },
+        { "title": "Immersion", "description": "Creativity and culture of K-POP." }
+      ]
+    },
+    "k-star-hall": {
+      "name": "K-Star Hall",
+      "subtitle": "K-Star Hall is a dedicated exhibition space showcasing exclusive collections from leading K-POP artists and Korean actors.",
+      "highlights": [
+        { "title": "Exclusive", "description": "Collections from K-POP and actors." },
+        { "title": "Stage & Autographs", "description": "Costumes and rare memorabilia." },
+        { "title": "Hallyu", "description": "The global impact of Korean culture." }
+      ]
+    },
+    "k-tourism": {
+      "name": "K-Tourism",
+      "subtitle": "The K-Tourism is a space designed to introduce both well-known and hidden travel destinations in Korea through videos.",
+      "highlights": [
+        { "title": "Destinations", "description": "Well-known and hidden spots." },
+        { "title": "Videos", "description": "Diverse aspects of Korea on film." },
+        { "title": "Plan", "description": "Content to help plan your trip." }
+      ]
+    },
+    "k-webtoon-vr": {
+      "name": "K-Webtoon & K-POP VR",
+      "subtitle": "Easily explore top Korean webtoons from eight major studios. Experience K-POP concerts like never before through VR with Venta X and Meta Quest.",
+      "highlights": [
+        { "title": "Webtoons", "description": "Top Korean webtoons from eight major studios." },
+        { "title": "K-POP VR", "description": "Virtual concerts with Venta X and Meta Quest." },
+        { "title": "360°", "description": "Full immersion in concert and story." }
+      ]
+    },
+    "main-atrium": {
+      "name": "Main Atrium",
+      "subtitle": "The cultural hub of KOREA 360, hosting live performances, workshops, and immersive K-content experiences.",
+      "highlights": [
+        { "title": "Live", "description": "Performances and workshops." },
+        { "title": "Connect", "description": "A space where people gather." },
+        { "title": "Celebrate", "description": "Korean culture in action." }
+      ]
+    },
+    "vivid-360": {
+      "name": "VIVID 360",
+      "subtitle": "An immersive media zone offering a multi-sensory experience of K-content through vivid visuals and surround sound.",
+      "highlights": [
+        { "title": "Multi-sensory", "description": "Vivid visuals and surround sound." },
+        { "title": "K-Content", "description": "Experience through cutting-edge AV." },
+        { "title": "Pulse", "description": "Feel Korean culture in the room." }
+      ]
+    }
+  },
+  "events": {
+    "index": {
+      "title": "Events",
+      "description": "Ongoing and upcoming events at KOREA 360 UAE. Join workshops, meet-ups, and cultural experiences.",
+      "planVisit": "Plan your visit",
+      "ongoing": "Ongoing",
+      "upcoming": "Upcoming",
+      "noOngoing": "No ongoing events at the moment. Check back soon or browse upcoming events.",
+      "noUpcoming": "No upcoming events scheduled. Follow us for announcements.",
+      "viewDetails": "View details"
+    },
+    "detail": {
+      "backToEvents": "← Back to events",
+      "ongoing": "Ongoing",
+      "upcoming": "Upcoming",
+      "eventDetails": "Event details",
+      "location": "Location",
+      "time": "Time",
+      "planVisit": "Plan your visit",
+      "viewAllEvents": "View all events"
+    },
+    "notFound": {
+      "title": "Event not found",
+      "description": "The event you're looking for doesn't exist or has been removed.",
+      "viewAllEvents": "View all events",
+      "backToHome": "Back to home"
+    },
+    "k-pop-experience-feb": {
+      "title": "K-POP Experience Week",
+      "shortDescription": "Live performances, meet-and-greets, and K-POP merchandise pop-up at the Content Experience zone.",
+      "description": "Join us for a full week of K-POP celebrations. Enjoy live performances from emerging artists, meet-and-greet sessions, exclusive merchandise, and photo zones."
+    },
+    "k-beauty-workshop-feb": {
+      "title": "K-Beauty Skincare Workshop",
+      "shortDescription": "Hands-on skincare and makeup sessions with K-beauty experts. Limited slots.",
+      "description": "Learn the famous K-beauty routine from experts. Sessions cover double cleansing, sheet masks, and trending makeup looks. All materials provided."
+    },
+    "hanbok-experience": {
+      "title": "Hanbok Try-On Experience",
+      "shortDescription": "Try on traditional Hanbok and take photos in our themed backdrop. Free for visitors.",
+      "description": "Experience Korean traditional dress with our Hanbok try-on corner. Multiple styles for adults and children. Professional photo backdrop available."
+    },
+    "k-food-tasting-mar": {
+      "title": "K-Food Tasting Festival",
+      "shortDescription": "Sample Korean snacks, drinks, and street food. New brands and classics.",
+      "description": "A curated tasting event featuring Korean snacks, beverages, and street food. Meet brands from the K-Food zone and discover new favorites."
+    },
+    "k-character-meet-mar": {
+      "title": "K-Character Meet & Greet",
+      "shortDescription": "Meet popular K-characters, take photos, and get limited merchandise.",
+      "description": "Character appearances and photo opportunities with beloved K-characters. Limited-edition merchandise and activities for kids."
+    },
+    "korea-tourism-fair": {
+      "title": "Korea Tourism & Travel Fair",
+      "shortDescription": "Discover travel destinations, get travel tips, and win prizes from KTO.",
+      "description": "The Korea Tourism Organization (KTO) presents a travel fair with destination booths, travel tips, cultural highlights, and giveaways."
+    }
+  },
+  "locale": {
+    "en": "English",
+    "ko": "한국어"
+  }
+}

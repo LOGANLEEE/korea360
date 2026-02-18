@@ -1,5 +1,5 @@
 import Image, { type StaticImageData } from "next/image"
-import Link from "next/link"
+import { Link } from "@/i18n/navigation"
 import type { ReactNode } from "react"
 
 import { Button } from "@/components/ui/button"

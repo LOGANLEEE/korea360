@@ -1,9 +1,10 @@
 import Image, { type StaticImageData } from "next/image";
-import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/shared/Container";
+import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 // import mainAtrium1 from "@/assets/14.Main_atrium_photo/IMG_8753.jpg"
@@ -30,16 +31,20 @@ export type HeroSectionProps = {
   secondaryCta?: HeroCta;
 };
 
-export function HeroSection({
+export async function HeroSection({
   className,
   backgroundSrc = mainHall4,
   backgroundAlt = "KOREA 360 main hall",
-  headline = "Discover Korea in Dubai — at KOREA 360 UAE",
-  subtext = "An official cultural experience hub showcasing K-culture, K-contents, products, and immersive zones — all in one place.",
-  primaryCta = { label: "Explore Experience Zones", href: "#experience-zones" },
-  secondaryCta = { label: "Plan Your Visit", href: "#visit" },
+  headline,
+  subtext,
+  primaryCta,
+  secondaryCta,
 }: HeroSectionProps) {
+  const t = await getTranslations("home");
   const cardImage = HERO_CARD_IMAGE;
+  const heroTags = t.raw("heroTags") as string[];
+  const primary = primaryCta ?? { label: t("hero.primaryCta"), href: "#experience-zones" };
+  const secondary = secondaryCta ?? { label: t("hero.secondaryCta"), href: "#visit" };
 
   return (
     <section
@@ -73,7 +78,7 @@ export function HeroSection({
                 </h1>
               </div>
               <div className="animate-fade-in-up animation-delay-75">
-                <p className="text-base text-muted-foreground md:text-lg">
+                <p className="text-base text-foreground/95 md:text-lg leading-relaxed [text-shadow:0_1px_2px_rgba(0,0,0,0.4)]">
                   {subtext}
                 </p>
               </div>
@@ -84,7 +89,7 @@ export function HeroSection({
                   size="lg"
                   className="rounded-xl shadow-sm transition-all duration-200 ease-in-out hover:shadow-md sm:w-auto"
                 >
-                  <Link href={primaryCta.href}>{primaryCta.label}</Link>
+                  <Link href={primary.href}>{primary.label}</Link>
                 </Button>
 
                 <Button
@@ -96,7 +101,7 @@ export function HeroSection({
                     "transition-all duration-200 ease-in-out hover:bg-accent hover:shadow-md sm:w-auto"
                   )}
                 >
-                  <Link href={secondaryCta.href}>{secondaryCta.label}</Link>
+                  <Link href={secondary.href}>{secondary.label}</Link>
                 </Button>
               </div>
             </div>
@@ -126,26 +131,24 @@ export function HeroSection({
               <div className="relative flex flex-col gap-8 p-8 md:p-10">
                 <div className="space-y-5">
                   <p className="text-xs font-medium uppercase tracking-widest text-primary">
-                    Experience Hub
+                    {t("experienceHub")}
                   </p>
                   <h2 className="text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-                    A curated gateway to Korea
+                    {t("experienceHubTitle")}
                   </h2>
                   <p className="max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
-                    Experience 15 themed zones — from K-food and K-beauty to
-                    characters, design, and tourism — designed to be scannable,
-                    immersive, and easy to navigate.
+                    {t("experienceHubDesc")}
                   </p>
                 </div>
                 <div className="border-t border-border/60 pt-6">
                   <p className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
-                    Explore
+                    {t("exploreTag")}
                   </p>
                   <ul
                     className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm text-muted-foreground"
                     aria-hidden
                   >
-                    {["K-food", "K-beauty", "K-POP", "Design", "Tourism"].map(
+                    {(Array.isArray(heroTags) ? heroTags : ["K-food", "K-beauty", "K-POP", "Design", "Tourism"]).map(
                       (tag) => (
                         <li
                           key={tag}

@@ -5,8 +5,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { Link } from "@/i18n/navigation"
 import { cn } from "@/lib/utils"
-import Link from "next/link"
 
 export type ProductCardProps = {
   title: string

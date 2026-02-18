@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server"
 import { FeatureCard } from "@/components/shared/FeatureCard"
 import { Container } from "@/components/shared/Container"
 import { Section } from "@/components/shared/Section"
@@ -11,16 +12,16 @@ export type ZoneHighlightsProps = {
   items: ZoneHighlight[]
 }
 
-export function ZoneHighlights({ items }: ZoneHighlightsProps) {
+export async function ZoneHighlights({ items }: ZoneHighlightsProps) {
+  const t = await getTranslations("zones.highlights")
   return (
     <Section>
       <Container>
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <h2 className="text-3xl font-semibold md:text-4xl">Highlights</h2>
+            <h2 className="text-3xl font-semibold md:text-4xl">{t("title")}</h2>
             <p className="mt-4 text-base text-muted-foreground md:text-lg">
-              A quick set of cues to guide your visit — designed to be scannable
-              and easy to navigate.
+              {t("description")}
             </p>
           </div>
 

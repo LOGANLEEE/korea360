@@ -1,0 +1,312 @@
+{
+  "nav": {
+    "home": "홈",
+    "experienceZones": "체험 존",
+    "events": "이벤트",
+    "visit": "방문 안내"
+  },
+  "home": {
+    "hero": {
+      "headline": "KOREA 360 UAE — 한국과 중동을 잇는 새로운 다리",
+      "subtext": "최초이자 유일한 K-콘텐츠·제품 체험 허브. K-콘텐츠, 문화, 관광, 패션, 푸드, 뷰티, 라이프스타일까지 한국의 모든 것을 한 공간에서 경험하세요.",
+      "primaryCta": "체험 존 둘러보기",
+      "secondaryCta": "방문 계획하기"
+    },
+    "experienceHub": "체험 허브",
+    "experienceHubTitle": "한국으로의 큐레이티드 게이트웨이",
+    "experienceHubDesc": "K-푸드, K-뷰티부터 캐릭터, 디자인, 관광까지 15개 테마 존을 스캔 가능하고 몰입감 있게 쉽게 탐험할 수 있도록 구성했습니다.",
+    "exploreTag": "탐험",
+    "heroTags": ["K-푸드", "K-뷰티", "K-POP", "디자인", "관광"],
+    "valueProp1": {
+      "title": "최초이자 유일한 K-콘텐츠·제품 허브",
+      "description": "이 지역에서 유일한 체험 허브 — K-콘텐츠, 문화, 관광, 패션, 푸드, 뷰티, 라이프스타일을 한곳에서."
+    },
+    "valueProp2": {
+      "title": "15개의 몰입형 체험 존",
+      "description": "K-POP부터 K-푸드까지 한국에 관한 모든 것이 360° 파노라마처럼 펼쳐집니다. 존을 선택해 한국 브랜드의 독창성을 모든 방향에서 경험하세요."
+    },
+    "valueProp3": {
+      "title": "두바이에서 만나요",
+      "description": "두바이 페스티벌 시티 몰 1층(북쪽 주차장 인근) — 찾기 쉽고, 둘러보기 편하며, 가족·친구와 함께하기 좋은 공간입니다."
+    },
+    "experienceAll": {
+      "title": "한국의 모든 것을 한곳에서",
+      "body1": "KOREA 360에서는 K-콘텐츠, 문화, 관광, 패션, 푸드, 뷰티, 라이프스타일까지 한국의 모든 것을 경험할 수 있습니다. K-POP부터 K-푸드까지 360° 파노라마처럼 펼쳐지는 한국 브랜드의 독창성을 만나보세요.",
+      "body2": "방송, 게임, 애니메이션, 캐릭터, 웹툰, 음악부터 패션·신기술까지 K-콘텐츠 산업 성장을 이끄는 한국콘텐츠진흥원(KOCCA)이 주관합니다."
+    },
+    "experienceZones": {
+      "title": "체험 존",
+      "description": "K-POP, K-캐릭터, K-뷰티, K-푸드, K-관광 등 15개 존에서 K-컬처를 쉽게 둘러보고, 마음에 드는 존부터 탐험해 보세요.",
+      "getDirections": "길찾기"
+    },
+    "partners": {
+      "title": "파트너 기관",
+      "description": "한국과 UAE의 문화, 무역, 관광, 디자인, 수출을 지원하는 신뢰할 수 있는 기관들과 함께합니다."
+    },
+    "partnersList": {
+      "kcc": { "title": "한국문화원 (KCC)", "description": "다양한 프로그램과 행사를 통해 한국 문화와 문화 교류를 알립니다." },
+      "at": { "title": "한국농수산식품유통공사 (aT)", "description": "한국 농수산식품의 무역·수출·마케팅을 담당하는 정부 기관입니다." },
+      "kcii": { "title": "한국화장품산업연구원 (KCII)", "description": "원료 안전 연구, 글로벌 피부 데이터 뱅크 구축, 수출 지원을 통해 K-뷰티를 알립니다." },
+      "kcdf": { "title": "한국공예·디자인문화진흥원 (KCDF)", "description": "한국 공예, 디자인, 한복을 세계에 알리며 문화 유산 보존과 지역 발전을 지원합니다." },
+      "kidp": { "title": "한국디자인진흥원 (KIDP)", "description": "한국 디자인 산업을 진흥하고 기업의 디자인 역량을 강화합니다." },
+      "kita": { "title": "대한무역투자진흥공사 (KITA)", "description": "한국의 무역·경제 발전과 국내 기업의 해외 진출을 지원하는 비영리 기관입니다." },
+      "kosme": { "title": "중소벤처기업부 (KOSME)", "description": "한국 중소·벤처 기업의 성장과 발전을 지원하는 정부 기관입니다." },
+      "kto": { "title": "한국관광공사 (KTO)", "description": "한국 관광을 알리고 여행지로서의 이미지를 높이는 정부 기관입니다." },
+      "kotra": { "title": "대한무역투자진흥공사 (KOTRA)", "description": "한국 기업의 무역과 글로벌 진출을 지원하는 정부 기관입니다." }
+    },
+    "visit": {
+      "title": "KOREA 360 UAE 방문하기",
+      "description": "두바이 페스티벌 시티 몰에서 만나요. 친구와 함께 천천히 존별로 탐험해 보세요.",
+      "primaryCta": "존 둘러보기",
+      "secondaryCta": "구글 맵에서 열기",
+      "location": "위치",
+      "locationValue": "두바이 페스티벌 시티 몰 1층 (북쪽 주차장 인근), 두바이, UAE",
+      "operationTime": "운영 시간",
+      "operationTimeValue": "월–목 10:00–23:00, 금–일 10:00–24:00",
+      "callWhatsApp": "전화 / 워츠앱",
+      "email": "이메일",
+      "instagram": "인스타그램",
+      "asideTitle": "참고",
+      "asideDescription": "가장 궁금한 존부터 시작한 뒤, 마음에 드는 곳을 다시 찾아보세요. 레이아웃은 쉬운 탐색과 반복 발견을 위해 설계되었습니다.",
+      "mapCaption": "KOREA 360 탐험 지도 — 존 안내"
+    },
+    "mapAlt": "KOREA 360 탐험 지도 — 두바이 페스티벌 시티 몰 18개 체험 존 평면도",
+    "footer": {
+      "tagline": "두바이 페스티벌 시티 몰 KOREA 360 UAE 공식 마케팅·문화 체험 웹사이트.",
+      "experienceZones": "체험 존",
+      "events": "이벤트",
+      "visit": "방문 안내",
+      "instagram": "인스타그램",
+      "copyright": "© {year} KOREA 360 UAE. All rights reserved."
+    }
+  },
+  "zones": {
+    "index": {
+      "title": "체험 존",
+      "description": "15개 카테고리를 둘러보고 각 존의 상세 정보를 확인하세요.",
+      "planVisit": "방문 계획하기",
+      "viewDetails": "자세히 보기"
+    },
+    "detail": {
+      "backToZones": "체험 존으로 돌아가기",
+      "planVisit": "방문 계획하기",
+      "exploreZone": "존 탐험하기",
+      "exploreZoneDesc": "큐레이티드 하이라이트, 갤러리, 방문 시 참고할 포인트를 확인하세요."
+    },
+    "highlights": {
+      "title": "하이라이트",
+      "description": "방문을 안내하는 핵심 포인트 — 스캔하기 쉽고 탐색하기 편하게 구성했습니다."
+    },
+    "visitCta": {
+      "title": "KOREA 360 UAE 방문하기",
+      "description": "두바이 페스티벌 시티 몰에서 만나요. 더 많은 존을 둘러본 뒤 방문을 계획하세요.",
+      "planVisit": "방문 계획하기",
+      "browseZones": "모든 존 보기",
+      "asideTitle": "쉬운 발견을 위해 설계",
+      "asideDescription": "좋아하는 것부터 시작한 뒤 인근 존을 탐험하세요. 명확함, 여백, 빠른 스캔을 위한 큐레이션된 경험입니다."
+    },
+    "notFound": {
+      "title": "존을 찾을 수 없습니다",
+      "description": "요청하신 존이 없거나 링크가 변경되었을 수 있습니다.",
+      "browseZones": "체험 존 둘러보기",
+      "backToHome": "홈으로"
+    },
+    "contents-experience": {
+      "name": "콘텐츠 체험",
+      "subtitle": "콘텐츠 체험 공간은 한국의 다양한 크리에이티브 산업을 몰입형으로 보여줍니다. 노래방(노래 연습실) 체험과 다양한 시청각 상영을 즐기실 수 있으며, 한국의 최신 미디어 트렌드와 영향력을 느끼실 수 있습니다.",
+      "highlights": [
+        { "title": "노래방", "description": "한국식 노래 연습실 체험." },
+        { "title": "인터랙티브", "description": "Step-In, Ulti-racer, PUBG, Nestyle 등." },
+        { "title": "미디어", "description": "시청각 상영과 최신 트렌드." }
+      ]
+    },
+    "content-multiplex": {
+      "name": "콘텐츠 멀티플렉스",
+      "subtitle": "공간 센서와 통합 벽면 프로젝션을 결합한 인터랙티브·몰입형 XR 체험 공간입니다. 모든 연령이 수동적 시청을 넘어선 독특한 체험을 즐길 수 있습니다.",
+      "highlights": [
+        { "title": "XR 체험", "description": "공간 센서와 벽면 프로젝션." },
+        { "title": "전 연령", "description": "누구나 즐길 수 있도록 설계." },
+        { "title": "인터랙티브", "description": "디지털 게임과 몰입형 콘텐츠." }
+      ]
+    },
+    "k-beauty": {
+      "name": "K-뷰티",
+      "subtitle": "스킨케어, 헤어케어, 메이크업 제품을 다양하게 체험할 수 있는 K-뷰티의 세계로 들어가 보세요. 한국 뷰티 산업의 혁신과 품질을 느껴 보세요.",
+      "highlights": [
+        { "title": "스킨케어", "description": "모든 니즈에 맞는 루틴과 제품." },
+        { "title": "혁신", "description": "K-뷰티가 글로벌 트렌드가 된 이유." },
+        { "title": "체험", "description": "천연 원료의 베스트 제품." }
+      ]
+    },
+    "k-character": {
+      "name": "K-캐릭터",
+      "subtitle": "한국의 '영토이'를 소개하는 K-캐릭터 존입니다. 유명 한국 토이 기업과 협업한 어린이를 위한 신비로운 세계를 경험하세요.",
+      "highlights": [
+        { "title": "영토이", "description": "한국이 사랑하는 캐릭터 세계." },
+        { "title": "협업", "description": "유명 한국 토이 기업." },
+        { "title": "신비", "description": "어린이와 가족을 위한 공간." }
+      ]
+    },
+    "k-craft-design": {
+      "name": "K-공예 & 디자인",
+      "subtitle": "현대 디자인이 더해진 한국 전통 공예 전시. 정교한 장인정신과 제작 과정을 가까이에서 느껴 보세요.",
+      "highlights": [
+        { "title": "전통 공예", "description": "현대 디자인이 더해진." },
+        { "title": "장인정신", "description": "정교한 제작 과정." },
+        { "title": "티임리스", "description": "핸드메이드의 아름다움과 정밀함." }
+      ]
+    },
+    "k-culture": {
+      "name": "K-컬처",
+      "subtitle": "한국의 전통 문화와 역사를 한눈에 경험할 수 있는 공간입니다. 대표 박물관과 민속 체험 존이 결합된 깊이 있는 문화 체험을 제공합니다.",
+      "highlights": [
+        { "title": "전통", "description": "문화와 역사를 한눈에." },
+        { "title": "박물관", "description": "대표 소장품과 전시." },
+        { "title": "민속", "description": "손으로 만나는 문화 체험." }
+      ]
+    },
+    "k-fashion": {
+      "name": "K-패션",
+      "subtitle": "전통과 현대 혁신이 자연스럽게 어우러진 한국 스타일의 역동적 트렌드를 K-패션에서 만나 보세요.",
+      "highlights": [
+        { "title": "트렌드", "description": "역동적이고 진화하는 한국 스타일." },
+        { "title": "전통과 현대", "description": "자연스럽게 어우러진 혁신." },
+        { "title": "큐레이티드", "description": "리딩 브랜드와 디자이너." }
+      ]
+    },
+    "k-food": {
+      "name": "K-푸드",
+      "subtitle": "한국 건강식품을 대표하는 인삼·홍삼 영양제를 다양하게 만나고, 한국의 맛과 문화를 진정한 맛으로 경험해 보세요.",
+      "highlights": [
+        { "title": "인삼", "description": "영양제와 건강 식품." },
+        { "title": "맛", "description": "진정한 한국의 맛." },
+        { "title": "문화", "description": "한국을 여는 창, 음식." }
+      ]
+    },
+    "k-lifestyle": {
+      "name": "K-라이프스타일",
+      "subtitle": "패션 악세서리부터 필수 가전·편의용품까지 한국의 라이프스타일 제품을 경험하세요. 혁신적 디자인과 현대 기술이 일상에 스타일과 실용을 더합니다.",
+      "highlights": [
+        { "title": "악세서리", "description": "패셔너블하고 기능적인 아이템." },
+        { "title": "홈", "description": "가전과 편의 제품." },
+        { "title": "디자인", "description": "혁신이 일상과 만나다." }
+      ]
+    },
+    "k-pop": {
+      "name": "K-POP",
+      "subtitle": "유명 K-POP 아티스트의 앨범, 공식 굿즈, 라이트스틱 큐레이션 전시. 글로벌 한류의 핵심 허브로서 K-POP의 창의성과 문화에 몰입해 보세요.",
+      "highlights": [
+        { "title": "앨범 & 굿즈", "description": "공식 굿즈와 라이트스틱." },
+        { "title": "한류", "description": "글로벌 K-POP 운동의 핵심 허브." },
+        { "title": "몰입", "description": "K-POP의 창의성과 문화." }
+      ]
+    },
+    "k-star-hall": {
+      "name": "K-스타 홀",
+      "subtitle": "리딩 K-POP 아티스트와 한국 배우의 독점 컬렉션을 전시하는 공간입니다. 스테이지 의상, 사인 컬렉션 등 한류의 글로벌 영향력을 보여주는 소장품을 만나 보세요.",
+      "highlights": [
+        { "title": "독점", "description": "K-POP·배우 컬렉션." },
+        { "title": "스테이지 & 사인", "description": "의상과 희귀 메모라빌리아." },
+        { "title": "한류", "description": "한국 문화의 글로벌 영향력." }
+      ]
+    },
+    "k-tourism": {
+      "name": "K-관광",
+      "subtitle": "영상으로 한국의 잘 알려진 여행지와 숨은 명소를 소개하는 공간입니다. 한국의 다양한 모습을 담은 영상으로 UAE 관광객이 한국 여행을 계획하는 데 도움이 되는 콘텐츠를 제공합니다.",
+      "highlights": [
+        { "title": "여행지", "description": "잘 알려진 곳과 숨은 명소." },
+        { "title": "영상", "description": "영상으로 담은 한국의 다양한 모습." },
+        { "title": "계획", "description": "여행 계획에 도움이 되는 콘텐츠." }
+      ]
+    },
+    "k-webtoon-vr": {
+      "name": "K-웹툰 & K-POP VR",
+      "subtitle": "8대 스튜디오의 인기 한국 웹툰을 한 플랫폼에서 쉽게 탐험하세요. Venta X와 메타 퀘스트로 K-POP 콘서트를 360° 몰입으로 경험해 보세요.",
+      "highlights": [
+        { "title": "웹툰", "description": "8대 스튜디오 인기 한국 웹툰." },
+        { "title": "K-POP VR", "description": "Venta X·메타 퀘스트 가상 콘서트." },
+        { "title": "360°", "description": "콘서트와 스토리의 풀 몰입." }
+      ]
+    },
+    "main-atrium": {
+      "name": "메인 아트리움",
+      "subtitle": "라이브 공연, 워크숍, 몰입형 K-콘텐츠 체험이 이루어지는 KOREA 360의 문화 허브. 사람들이 모이고 연결하며 한국 문화를 함께하는 공간입니다.",
+      "highlights": [
+        { "title": "라이브", "description": "공연과 워크숍." },
+        { "title": "연결", "description": "사람들이 모이는 공간." },
+        { "title": "축하", "description": "한국 문화가 살아 움직이는 곳." }
+      ]
+    },
+    "vivid-360": {
+      "name": "VIVID 360",
+      "subtitle": "생생한 영상과 서라운드 사운드로 K-콘텐츠의 다감각 체험을 제공하는 몰입형 미디어 존. 최첨단 오디오비주얼 스토리텔링으로 한국 문화의 맥박을 느껴 보세요.",
+      "highlights": [
+        { "title": "다감각", "description": "생생한 영상과 서라운드 사운드." },
+        { "title": "K-콘텐츠", "description": "최첨단 AV 체험." },
+        { "title": "맥박", "description": "공간에서 느끼는 한국 문화." }
+      ]
+    }
+  },
+  "events": {
+    "index": {
+      "title": "이벤트",
+      "description": "KOREA 360 UAE의 진행 중·예정 이벤트. 워크숍, 밋업, 문화 체험에 참여하세요.",
+      "planVisit": "방문 계획하기",
+      "ongoing": "진행 중",
+      "upcoming": "예정",
+      "noOngoing": "진행 중인 이벤트가 없습니다. 곧 다시 확인하거나 예정 이벤트를 둘러보세요.",
+      "noUpcoming": "예정된 이벤트가 없습니다. 소식을 따라와 주세요.",
+      "viewDetails": "자세히 보기"
+    },
+    "detail": {
+      "backToEvents": "← 이벤트 목록으로",
+      "ongoing": "진행 중",
+      "upcoming": "예정",
+      "eventDetails": "이벤트 상세",
+      "location": "장소",
+      "time": "시간",
+      "planVisit": "방문 계획하기",
+      "viewAllEvents": "모든 이벤트 보기"
+    },
+    "notFound": {
+      "title": "이벤트를 찾을 수 없습니다",
+      "description": "요청하신 이벤트가 없거나 삭제되었을 수 있습니다.",
+      "viewAllEvents": "모든 이벤트 보기",
+      "backToHome": "홈으로"
+    },
+    "k-pop-experience-feb": {
+      "title": "K-POP 체험 주간",
+      "shortDescription": "콘텐츠 체험 존에서 라이브 공연, 미팅·그리팅, K-POP 굿즈 팝업.",
+      "description": "K-POP 축제 한 주간. 신인 아티스트 라이브 공연, 미팅·그리팅, 독점 굿즈, 포토 존을 즐기세요."
+    },
+    "k-beauty-workshop-feb": {
+      "title": "K-뷰티 스킨케어 워크숍",
+      "shortDescription": "K-뷰티 전문가와 함께하는 스킨케어·메이크업 체험. 선착순.",
+      "description": "전문가에게서 유명 K-뷰티 루틴을 배우세요. 더블 클렌징, 시트마스크, 트렌디 메이크업. 재료 제공. 예약 권장, 잔여석 시 워크인 가능."
+    },
+    "hanbok-experience": {
+      "title": "한복 체험",
+      "shortDescription": "전통 한복을 입고 테마 백드롭에서 사진 촬영. 방문객 무료.",
+      "description": "한복 체험 코너에서 한국 전통 의상을 경험하세요. 성인·어린이용 다양한 스타일. 프로 포토 백드롭. 예약 불필요, 운영 시간 내 선착순."
+    },
+    "k-food-tasting-mar": {
+      "title": "K-푸드 테이스팅 페스티벌",
+      "shortDescription": "한국 스낵, 음료, 스트리트 푸드 시식. 신규 브랜드와 클래식.",
+      "description": "한국 스낵, 음료, 스트리트 푸드 큐레이션 테이스팅. K-푸드 존 브랜드를 만나 새 취향을 발견하세요. 현장에서 테이스팅 패스 구매 가능."
+    },
+    "k-character-meet-mar": {
+      "title": "K-캐릭터 밋 & 그리트",
+      "shortDescription": "인기 K-캐릭터와 만나 사진 촬영, 한정 굿즈 수령.",
+      "description": "사랑받는 K-캐릭터 등장 및 포토 타임. 한정판 굿즈와 어린이 활동. 일정은 추후 공지."
+    },
+    "korea-tourism-fair": {
+      "title": "한국 관광·여행 박람회",
+      "shortDescription": "여행지 소개, 여행 팁, KTO 경품.",
+      "description": "한국관광공사(KTO)가 여행지 부스, 여행 팁, 문화 하이라이트, 경품을 선사하는 여행 박람회를 개최합니다."
+    }
+  },
+  "locale": {
+    "en": "English",
+    "ko": "한국어"
+  }
+}

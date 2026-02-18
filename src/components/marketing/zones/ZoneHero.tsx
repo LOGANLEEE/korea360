@@ -1,9 +1,10 @@
 import Image, { type StaticImageData } from "next/image"
-import Link from "next/link"
+import { getTranslations } from "next-intl/server"
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Container } from "@/components/shared/Container"
+import { Link } from "@/i18n/navigation"
 import { cn } from "@/lib/utils"
 
 export type ZoneHeroProps = {
@@ -15,14 +16,17 @@ export type ZoneHeroProps = {
   secondaryCta?: { label: string; href: string }
 }
 
-export function ZoneHero({
+export async function ZoneHero({
   className,
   title,
   subtitle,
   heroImage,
-  primaryCta = { label: "Back to Experience Zones", href: "/#experience-zones" },
-  secondaryCta = { label: "Plan Your Visit", href: "/#visit" },
+  primaryCta,
+  secondaryCta,
 }: ZoneHeroProps) {
+  const t = await getTranslations("zones.detail")
+  const primary = primaryCta ?? { label: t("backToZones"), href: "/#experience-zones" }
+  const secondary = secondaryCta ?? { label: t("planVisit"), href: "/#visit" }
   return (
     <section className={cn("relative overflow-hidden py-16 md:py-24", className)}>
       <div className="absolute inset-0">
@@ -55,7 +59,7 @@ export function ZoneHero({
                 size="lg"
                 className="rounded-xl shadow-sm transition-all duration-200 ease-in-out hover:shadow-md"
               >
-                <Link href={primaryCta.href}>{primaryCta.label}</Link>
+                <Link href={primary.href}>{primary.label}</Link>
               </Button>
               <Button
                 asChild
@@ -66,7 +70,7 @@ export function ZoneHero({
                   "transition-all duration-200 ease-in-out hover:bg-accent hover:shadow-md"
                 )}
               >
-                <Link href={secondaryCta.href}>{secondaryCta.label}</Link>
+                <Link href={secondary.href}>{secondary.label}</Link>
               </Button>
             </div>
           </div>
@@ -87,11 +91,10 @@ export function ZoneHero({
               </div>
               <div className="relative p-8 md:p-10">
                 <p className="text-xl font-semibold md:text-2xl">
-                  Explore the zone
+                  {t("exploreZone")}
                 </p>
                 <p className="mt-4 text-base text-muted-foreground md:text-lg">
-                  Discover curated highlights, a quick gallery, and what to look
-                  for when you visit.
+                  {t("exploreZoneDesc")}
                 </p>
               </div>
             </Card>
